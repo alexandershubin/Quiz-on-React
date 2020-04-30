@@ -10,10 +10,10 @@ const QuestionActive = (props) => {
           <strong>1. </strong>
           Сколько звезд на небе
         </span>
-      
+        
         <small>1/4</small>
       </p>
-      <QuestionList/>
+      <QuestionList answers={props.answers}/>
     </div>
   )
 }
