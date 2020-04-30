@@ -5,7 +5,13 @@ import QuestionItem from "./QuestionItem/QuestionItem";
 const QuestionList = props => {
   return (
     <ul className={classes.LayoutActiveList}>
-      <QuestionItem/>
+        {props.answers.map((answer, index) => {
+          return (
+            <QuestionItem
+              key={index}
+              answer={answer}/>
+          )
+        })}
     </ul>
   )
 }

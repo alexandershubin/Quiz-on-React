@@ -21,7 +21,9 @@ class Question extends Component {
       <div className={classes.Question}>
         <div className={classes.QuestionWrapper}>
           <h1>Пройдите тест</h1>
-          <QuestionActive/>
+          <QuestionActive
+          answers={this.state.questions[0].answers}
+          />
         </div>
       </div>
     )
