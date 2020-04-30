@@ -1,0 +1,18 @@
+@import "src/style/variable";
+.Question {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 100%;
+  background: $bg;
+
+  h1 {
+    color: #ffffff;
+    margin-left: 10px;
+  }
+}
+
+.QuestionWrapper {
+  width: 600px;
+}

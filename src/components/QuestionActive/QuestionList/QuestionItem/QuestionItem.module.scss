@@ -1,0 +1,13 @@
+.LayoutItem {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #ffffff;
+
+  &:hover {
+    background: rgba(255, 255, 255, .3);
+    transition: .3s ease-in-out;
+  }
+}
